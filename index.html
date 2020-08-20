@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign In</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b0877fa0e4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="container-1">
+            <div class="wrapper">
+                <h1>Hello!</h1>
+                <p>Enter your personal details and start journey with us!</p>
+                <button>Sign Up</button>
+            </div>
+        </div>
+        <div class="container-2">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-media">
+                    <a href="#" class="google"><i class="fab fa-google"></i></a>
+                    <a href="#" class="google"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="google"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="email-container">
+                    <input type="text" id="email">
+                    <label for="email"><span id="email-label">Email</span></label>
+                </div>
+                <div class="password-container">
+                    <input type="password" id="password">
+                    <label for="password"><span id="password-label">Password</span></label>
+                </div>
+                <div class="remember-container">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <h4><a href="#">Forgot your password?</a></h4>
+                <button id="sign-in">Submit</button>
+                <h4 class="signup-700"><a href="#">Sign Up</a></h4>
+            </form>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Error</h2>
+                <span class="close-btn">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p id="modal-text"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
